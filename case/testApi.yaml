@@ -1,0 +1,8 @@
+-
+  name: 登录
+  request:
+    method: post
+    url: https://72ad.topjoytec.com/api/n/user/login/mobile
+    data: {"password":"25f9e794323b453885f5181f1b624d0b","mobile":"13600587905"}
+  validate: None
+

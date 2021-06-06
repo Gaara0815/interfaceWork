@@ -1,0 +1,7 @@
+;pip install -r toinstall.txt
+pytest
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+allure-pytest
