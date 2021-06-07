@@ -1,4 +1,3 @@
-;pip install -r toinstall.txt
 pytest
 pytest-html
 pytest-xdist
