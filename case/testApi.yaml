@@ -1,8 +1,23 @@
 -
-  name: 登录
+  name: 正常账号密码登录
   request:
     method: post
-    url: http://115.236.35.106:9000/api/n/user/login/mobile
+    url: /api/n/user/login/mobile
     data: {"password":"25f9e794323b453885f5181f1b624d0b","mobile":"13600587905"}
-  validate: None
+  validate: {"code": 0}
 
+-
+  name: 错误密码登录
+  request:
+    method: post
+    url: /api/n/user/login/mobile
+    data: {"password":"25f9e794323b453885f5181f1b624d0","mobile":"13600587905"}
+  validate: {"code": 1}
+
+-
+  name: 未加密密码登录
+  request:
+    method: post
+    url: /api/n/user/login/mobile
+    data: {"password":"123456789","mobile":"13600587905"}
+  validate: {"code": 1}

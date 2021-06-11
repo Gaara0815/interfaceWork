@@ -1,2 +1,297 @@
 2021-06-06 12:43:17,019-case.test_api-DEBUG-接口的返回结果为:{'timestamp': '2021-06-06 12:43:14.475', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/api/n/user/login/mobile'}
 2021-06-06 12:44:09,963-case.test_api-DEBUG-接口的返回结果为:{'timestamp': '2021-06-06 12:44:07.418', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/api/n/user/login/mobile'}
+2021-06-07 09:32:53,331-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 09:34:09,007-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 09:37:27,284-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 09:37:46,621-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 10:50:12,364-case.test_api-DEBUG-type(result):<class 'dict'>
+2021-06-07 10:51:05,278-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 10:52:42,062-conftest-DEBUG-清除成功
+2021-06-07 10:52:42,276-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 10:56:19,322-conftest-DEBUG-清除成功
+2021-06-07 10:56:19,692-common.yaml_util-DEBUG-写入成功
+2021-06-07 10:56:19,692-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 10:56:36,599-conftest-DEBUG-清除成功
+2021-06-07 10:57:01,784-conftest-DEBUG-清除成功
+2021-06-07 10:57:02,085-common.yaml_util-DEBUG-写入成功{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-07 10:57:02,085-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 10:58:45,436-conftest-DEBUG-清除成功
+2021-06-07 10:58:45,616-common.yaml_util-DEBUG-写入成功{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-07 10:58:45,617-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 10:59:57,012-conftest-DEBUG-清除成功
+2021-06-07 10:59:57,661-common.yaml_util-DEBUG-写入成功{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-07 10:59:57,662-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 11:00:34,799-conftest-DEBUG-清除成功
+2021-06-07 11:00:35,204-common.yaml_util-DEBUG-写入成功{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-07 11:00:35,204-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 11:00:35,205-case.test_api-DEBUG-读取成功:PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w
+2021-06-07 11:12:50,098-conftest-DEBUG-清除成功
+2021-06-07 11:12:50,306-common.yaml_util-DEBUG-写入成功:%s{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-07 11:12:50,306-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 11:12:50,307-case.test_api-DEBUG-读取成功:PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w
+2021-06-07 11:13:19,126-conftest-DEBUG-清除成功
+2021-06-07 11:13:19,559-common.yaml_util-DEBUG-写入成功:%s{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-07 11:13:19,559-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-07 11:13:19,560-case.test_api-DEBUG-读取成功:PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w
+2021-06-08 11:06:37,521-conftest-DEBUG-清除成功
+2021-06-08 11:07:22,199-conftest-DEBUG-清除成功
+2021-06-08 11:07:22,368-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:07:22,369-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:07:22,369-case.test_api-DEBUG-读取成功:PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w
+2021-06-08 11:08:11,072-conftest-DEBUG-清除成功
+2021-06-08 11:08:11,204-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:10:30,718-conftest-DEBUG-清除成功
+2021-06-08 11:10:31,379-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:10:31,379-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:11:07,815-conftest-DEBUG-清除成功
+2021-06-08 11:11:08,000-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:11:08,000-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:12:40,699-conftest-DEBUG-清除成功
+2021-06-08 11:12:40,793-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:12:40,794-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:13:30,385-conftest-DEBUG-清除成功
+2021-06-08 11:13:30,541-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:13:30,541-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:14:22,954-conftest-DEBUG-清除成功
+2021-06-08 11:14:23,236-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:14:23,236-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:14:57,257-conftest-DEBUG-清除成功
+2021-06-08 11:14:57,425-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:14:57,425-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:16:28,352-conftest-DEBUG-清除成功
+2021-06-08 11:16:28,610-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:16:28,611-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:18:01,879-conftest-DEBUG-清除成功
+2021-06-08 11:18:02,171-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:18:02,172-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:18:18,971-conftest-DEBUG-清除成功
+2021-06-08 11:18:19,187-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:18:19,187-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:19:35,915-conftest-DEBUG-清除成功
+2021-06-08 11:19:36,132-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:19:36,132-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:20:13,184-conftest-DEBUG-清除成功
+2021-06-08 11:20:13,871-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:20:13,871-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:20:54,458-conftest-DEBUG-清除成功
+2021-06-08 11:20:55,276-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:20:55,276-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:21:19,654-conftest-DEBUG-清除成功
+2021-06-08 11:21:20,029-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:21:20,029-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:22:04,676-conftest-DEBUG-清除成功
+2021-06-08 11:22:04,811-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:22:04,811-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:23:08,686-conftest-DEBUG-清除成功
+2021-06-08 11:23:08,873-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:23:08,873-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:23:22,549-conftest-DEBUG-清除成功
+2021-06-08 11:23:22,779-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:23:22,779-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:23:50,594-conftest-DEBUG-清除成功
+2021-06-08 11:23:50,923-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:23:50,924-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:27:38,530-conftest-DEBUG-清除成功
+2021-06-08 11:27:38,680-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:27:38,680-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 11:27:57,293-conftest-DEBUG-清除成功
+2021-06-08 11:27:57,418-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 11:27:57,418-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:01:05,757-conftest-DEBUG-清除成功
+2021-06-08 14:01:06,139-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:01:06,139-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:01:27,795-conftest-DEBUG-清除成功
+2021-06-08 14:01:28,198-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:01:28,199-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:01:51,311-conftest-DEBUG-清除成功
+2021-06-08 14:01:51,490-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:01:51,491-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:01:51,506-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:01:51,506-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:03:35,592-conftest-DEBUG-清除成功
+2021-06-08 14:03:50,867-case.test_api-DEBUG-接口的返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:03:50,868-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:03:50,882-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:03:50,882-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:03:50,894-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:03:50,894-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:03:50,894-case.test_api-DEBUG-接口的返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:05:29,396-conftest-DEBUG-清除成功
+2021-06-08 14:05:29,837-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:05:29,838-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:05:29,854-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:05:29,854-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:05:29,867-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:05:29,867-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:05:29,867-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:07:35,337-conftest-DEBUG-清除成功
+2021-06-08 14:08:47,339-conftest-DEBUG-清除成功
+2021-06-08 14:08:47,547-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:08:47,548-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:08:47,570-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:08:47,570-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:08:47,582-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:08:47,582-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:08:47,582-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:01,101-conftest-DEBUG-清除成功
+2021-06-08 14:09:01,291-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:09:01,292-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:09:01,317-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:01,317-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:01,335-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:01,335-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:01,335-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:28,760-conftest-DEBUG-清除成功
+2021-06-08 14:09:28,871-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:09:28,872-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:09:28,934-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:28,934-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:28,951-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:28,951-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:09:28,951-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:15:29,605-conftest-DEBUG-清除成功
+2021-06-08 14:15:29,966-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:15:29,967-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:15:29,987-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:15:30,022-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:15:50,129-conftest-DEBUG-清除成功
+2021-06-08 14:15:50,215-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 14:15:50,217-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 14:15:50,239-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 14:15:50,268-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:15:05,189-conftest-DEBUG-清除成功
+2021-06-08 15:15:05,403-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:15:05,403-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 15:15:05,418-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:15:05,430-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:15:38,169-conftest-DEBUG-清除成功
+2021-06-08 15:15:38,594-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:15:38,595-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 15:15:38,610-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:15:38,622-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:18:43,394-conftest-DEBUG-清除成功
+2021-06-08 15:19:22,651-conftest-DEBUG-清除成功
+2021-06-08 15:19:23,287-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:19:23,288-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 15:19:23,303-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:19:23,316-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:19:51,469-conftest-DEBUG-清除成功
+2021-06-08 15:19:51,972-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:19:51,973-common.yaml_util-DEBUG-写入成功:{'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w'}
+2021-06-08 15:19:51,990-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:19:52,001-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:20:39,641-conftest-DEBUG-清除成功
+2021-06-08 15:20:39,983-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:20:39,999-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:20:40,011-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:22:36,393-conftest-DEBUG-清除成功
+2021-06-08 15:22:36,394-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:22:36,673-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:22:36,674-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-08 15:22:36,676-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:22:36,687-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:22:36,688-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-08 15:22:36,689-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:22:36,702-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:22:36,702-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-08 15:24:18,859-conftest-DEBUG-清除成功
+2021-06-08 15:24:18,860-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:24:19,345-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:24:19,363-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:27:23,704-conftest-DEBUG-清除成功
+2021-06-08 15:27:23,705-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:27:24,188-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:27:24,206-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:29:00,046-conftest-DEBUG-清除成功
+2021-06-08 15:29:00,047-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:29:00,175-case.test_api-DEBUG-接口响应时间为:0.125707
+2021-06-08 15:29:00,176-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:29:00,177-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-08 15:29:00,178-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:29:00,190-case.test_api-DEBUG-接口响应时间为:0.010263
+2021-06-08 15:29:00,190-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:29:00,190-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-08 15:29:00,192-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:29:00,209-case.test_api-DEBUG-接口响应时间为:0.015371
+2021-06-08 15:29:00,209-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:29:00,209-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-08 15:29:41,158-conftest-DEBUG-清除成功
+2021-06-08 15:29:41,159-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:29:41,686-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:29:41,705-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:30:10,932-conftest-DEBUG-清除成功
+2021-06-08 15:30:10,932-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:30:11,361-case.test_api-DEBUG-正常账号密码登录接口响应时间为:0.425859
+2021-06-08 15:30:11,361-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:30:11,362-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-08 15:30:11,364-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:30:11,375-case.test_api-DEBUG-错误密码登录接口响应时间为:0.009938
+2021-06-08 15:30:11,375-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:30:11,375-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-08 15:30:11,377-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:30:11,387-case.test_api-DEBUG-未加密密码登录接口响应时间为:0.008734
+2021-06-08 15:30:11,387-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:30:11,387-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-08 15:30:44,142-conftest-DEBUG-清除成功
+2021-06-08 15:30:44,143-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:30:44,685-case.test_api-DEBUG-正常账号密码登录接口响应时间为:0.539438秒
+2021-06-08 15:30:44,686-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:30:44,687-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-08 15:30:44,689-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:30:44,702-case.test_api-DEBUG-错误密码登录接口响应时间为:0.011141秒
+2021-06-08 15:30:44,702-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:30:44,702-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-08 15:30:44,704-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:30:44,715-case.test_api-DEBUG-未加密密码登录接口响应时间为:0.009096秒
+2021-06-08 15:30:44,715-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:30:44,715-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-08 15:32:47,774-conftest-DEBUG-清除成功
+2021-06-08 15:32:47,776-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:32:47,953-case.test_api-DEBUG-正常账号密码登录接口响应时间为:0.174135秒
+2021-06-08 15:32:47,953-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:32:47,954-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-08 15:32:47,956-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:32:47,969-case.test_api-DEBUG-错误密码登录接口响应时间为:0.011994秒
+2021-06-08 15:32:47,969-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:32:47,969-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-08 15:32:47,971-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:32:47,981-case.test_api-DEBUG-未加密密码登录接口响应时间为:0.008826秒
+2021-06-08 15:32:47,982-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:32:47,982-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-08 15:32:47,983-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-08 15:32:48,014-case.test_api-DEBUG-正常账号密码登录接口响应时间为:0.029329秒
+2021-06-08 15:32:48,014-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-08 15:32:48,015-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-08 15:32:48,017-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-08 15:32:48,028-case.test_api-DEBUG-错误密码登录接口响应时间为:0.009899秒
+2021-06-08 15:32:48,029-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:32:48,029-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-08 15:32:48,031-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-08 15:32:48,041-case.test_api-DEBUG-未加密密码登录接口响应时间为:0.008806秒
+2021-06-08 15:32:48,041-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-08 15:32:48,042-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-09 10:01:15,536-conftest-DEBUG-清除成功
+2021-06-09 10:01:15,575-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-09 10:01:25,912-case.test_api-DEBUG-正常账号密码登录接口响应时间为:10.321942秒
+2021-06-09 10:01:25,912-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-09 10:01:25,913-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-09 10:01:25,919-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-09 10:01:27,343-case.test_api-DEBUG-错误密码登录接口响应时间为:1.421156秒
+2021-06-09 10:01:27,343-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-09 10:01:27,343-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-09 10:01:27,348-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-09 10:01:27,377-case.test_api-DEBUG-未加密密码登录接口响应时间为:0.027812秒
+2021-06-09 10:01:27,377-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-09 10:01:27,377-case.test_api-DEBUG-未加密密码登录测试完成
+2021-06-09 10:01:27,382-case.test_api-DEBUG-正常账号密码登录开始测试
+2021-06-09 10:01:27,750-case.test_api-DEBUG-正常账号密码登录接口响应时间为:0.366218秒
+2021-06-09 10:01:27,750-case.test_api-DEBUG-正常账号密码登录用例返回结果为:{'code': 0, 'data': {'token': 'PrGKKjgbVYp8FUThlYjaH2LbErj2QMe88q7w', 'registered': True, 'inviteBy': '564945', 'kyToken': 'qYIs3SlT0QdOqZxC6Nn8PNhP1VHiboJebxzO', 'uid': 5, 'newUser': False}}
+2021-06-09 10:01:27,751-case.test_api-DEBUG-正常账号密码登录测试完成
+2021-06-09 10:01:27,756-case.test_api-DEBUG-错误密码登录开始测试
+2021-06-09 10:01:27,779-case.test_api-DEBUG-错误密码登录接口响应时间为:0.021699秒
+2021-06-09 10:01:27,779-case.test_api-DEBUG-错误密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-09 10:01:27,779-case.test_api-DEBUG-错误密码登录测试完成
+2021-06-09 10:01:27,784-case.test_api-DEBUG-未加密密码登录开始测试
+2021-06-09 10:01:27,800-case.test_api-DEBUG-未加密密码登录接口响应时间为:0.014753秒
+2021-06-09 10:01:27,801-case.test_api-DEBUG-未加密密码登录用例返回结果为:{'code': 1, 'error': '密码不正确，请重新输入'}
+2021-06-09 10:01:27,801-case.test_api-DEBUG-未加密密码登录测试完成

@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 import logging
 import os
-# from utils import getcwd
 
 
 log_path = os.path.dirname(os.getcwd())

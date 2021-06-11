@@ -2,4 +2,4 @@ import pytest
 import os
 if __name__ == '__main__':
     pytest.main()
-    os.system('allure generate temp -o reports --clean')
+    # os.system('allure generate temp -o reports --clean')#生成allure报告
