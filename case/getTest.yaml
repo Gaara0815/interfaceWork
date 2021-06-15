@@ -1,0 +1,9 @@
+-
+  name: 点亮列表
+  request:
+    method: get
+    url: /api/n/lightup/by/adcode/list
+    data: {"longitude":"120.159708","latitude":"30.325324","page":82,"size":10,"adcode":330100}
+    head: {"Content-Type":"application/json"}
+  validate: {"code": 0}
+

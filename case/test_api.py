@@ -21,37 +21,41 @@ class TestApi:
         method = caseinfo['request']['method']
         url = self.baseurl+caseinfo['request']['url']
         data = caseinfo['request']['data']
+        head = caseinfo['request']['head']
         name = caseinfo['name']
-        self.logger.get_log().debug(name + '开始测试')
-        result = RequestsUtil.send_request(self,name,method,url,data)
+        self.logger.get_log().info(name + '开始测试')
+        result = RequestsUtil.send_request(self,name,method,url,data,head)
         result = json.loads(result)
-        self.logger.get_log().debug(name+'用例返回结果为:%s', result)  # 输出接口响应内容
+        self.logger.get_log().info(name+'用例返回结果为:%s', result)  # 输出接口响应内容
         code = result['code']
         if(code==0):
             token = result['data']['token']
             YamlUtil.write_backup_yaml(self, {'token': token})
+            uid = result['data']['uid']
+            YamlUtil.write_backup_yaml(self, {'uid': uid})
         validate = caseinfo['validate']['code']
         assert validate in result.values()
-        self.logger.get_log().debug(name+'测试完成')
+        self.logger.get_log().info(name+'测试完成')
 
 
-    @pytest.mark.parametrize('caseinfo', YamlUtil.read_testApi_yaml('testApi.yaml'))
+    @pytest.mark.parametrize('caseinfo', YamlUtil.read_testApi_yaml('getTest.yaml'))
     def test_api2(self, caseinfo):
         method = caseinfo['request']['method']
         url = self.baseurl + caseinfo['request']['url']
         data = caseinfo['request']['data']
+        head = caseinfo['request']['head']
+        backupData =  YamlUtil.read_backup_yaml(self)
+        token = backupData['token']
+        head['ACCESS_TOKEN'] = token
         name = caseinfo['name']
-        self.logger.get_log().debug(name + '开始测试')
-        result = RequestsUtil.send_request(self, name, method, url, data)
+        self.logger.get_log().info(name + '开始测试')
+        result = RequestsUtil.send_request(self, name, method, url, data,head)
         result = json.loads(result)
-        self.logger.get_log().debug(name + '用例返回结果为:%s', result)  # 输出接口响应内容
+        self.logger.get_log().info(name + '用例返回结果为:%s', result)  # 输出接口响应内容
         code = result['code']
-        if (code == 0):
-            token = result['data']['token']
-            YamlUtil.write_backup_yaml(self, {'token': token})
         validate = caseinfo['validate']['code']
         assert validate in result.values()
-        self.logger.get_log().debug(name + '测试完成')
+        self.logger.get_log().info(name + '测试完成')
 
     # if __name__ == '__main__':
 #     pytest.main(['-vs','test_api.py'])

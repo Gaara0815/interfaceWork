@@ -7,5 +7,6 @@ from common.logger import Logger
 def clear_yaml():
     logger = Logger(__name__)
     YamlUtil().clear_backup_yaml()
-    logger.get_log().debug('清除成功')
+    YamlUtil().del_file()
+    logger.get_log().info('清除成功')
 
