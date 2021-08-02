@@ -28,6 +28,7 @@ class YamlUtil:
         with open(os.getcwd()+'/case/'+yaml_name,mode='r',encoding='utf-8') as f:
             value = yaml.load(stream=f,Loader=yaml.FullLoader)
             return value
+
 #清除temp文件夹里面文件
     def del_file(self):
         path_data = os.getcwd()+'/temp'

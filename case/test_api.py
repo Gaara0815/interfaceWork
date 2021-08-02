@@ -4,11 +4,13 @@ from common.RequestsUtil import RequestsUtil
 from common.logger import Logger
 import json
 import ast
+import traceback
 
 class TestApi:
     def setup_class(self):
         self.logger = Logger(__name__)
         self.baseurl = 'http://115.236.35.106:9000'
+        # self.baseurl ='https://72ad.topjoytec.com'
 
 
     # 函数级结束
@@ -24,7 +26,7 @@ class TestApi:
         head = caseinfo['request']['head']
         name = caseinfo['name']
         self.logger.get_log().info(name + '开始测试')
-        result = RequestsUtil.send_request(self,name,method,url,data,head)
+        result = RequestsUtil.send_request(self,name,method,url,data,headers=head)
         result = json.loads(result)
         self.logger.get_log().info(name+'用例返回结果为:%s', result)  # 输出接口响应内容
         code = result['code']
@@ -49,7 +51,7 @@ class TestApi:
         head['ACCESS_TOKEN'] = token
         name = caseinfo['name']
         self.logger.get_log().info(name + '开始测试')
-        result = RequestsUtil.send_request(self, name, method, url, data,head)
+        result = RequestsUtil.send_request(self, name, method, url, data, headers=head)
         result = json.loads(result)
         self.logger.get_log().info(name + '用例返回结果为:%s', result)  # 输出接口响应内容
         code = result['code']
